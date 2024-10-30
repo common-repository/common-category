@@ -1,0 +1,20 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: kousuke.kikuchi <kousuke.kikuchi>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Appending Common Category"
+msgstr "共通カテゴリの追加"
+
+msgid "Add Category For All Users"
+msgstr "すべてのユーザにカテゴリーを追加"
+
+msgid "Appended follow blogs"
+msgstr "以下のblogに追加しました。"
+

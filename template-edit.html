@@ -1,0 +1,29 @@
+
+
+<div class="form-wrap">
+<h3><?= __('Add Category For All Users', CommonCategory); ?></h3>
+<div id="ajax-response"></div>
+<form name="addcat" id="addcat" method="post" class="add:the-list: validate">
+	<?php $this->make_nonce_field($this->nonce); ?>
+	<input type="hidden" name="addcat" value="addcat" />
+
+
+	<div class="form-field form-required">
+		<label for="cat_name"><?php _e('Category Name') ?></label>
+		<input name="cat_name" id="cat_name" type="text" value="" size="40" aria-required="true" />
+		<p><?php _e('The name is used to identify the category almost everywhere, for example under the post or in the category widget.'); ?></p>
+	</div>
+
+
+	<div class="form-field">
+		<label for="category_description"><?php _e('Description') ?></label>
+		<textarea name="category_description" id="category_description" rows="5" cols="40"></textarea>
+		<p><?php _e('The description is not prominent by default, however some themes may show it.'); ?></p>
+	</div>
+
+	<p class="submit"><input type="submit" class="button" name="submit" value="<?php _e('Add Category'); ?>" /></p>
+	<?php do_action('edit_category_form', $category); ?>
+</form>
+</div>
+
+
